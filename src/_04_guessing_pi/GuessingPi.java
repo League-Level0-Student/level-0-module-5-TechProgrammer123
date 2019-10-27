@@ -33,7 +33,7 @@ String IDK = JOptionPane.showInputDialog("What is the next digit of pi?");
 				// 6. Compare the user's input to the next digit of your pi variable 
 				//    (look at step 3 for a clue).
 				//    HINT: use charAt(0) to get 1st char of user input String 
-if (IDK .equals( Pi.charAt(0))) {
+if (IDK.charAt(0)== Pi.charAt(i)) {
 	System.out.println("Correct");
 }
 else {
