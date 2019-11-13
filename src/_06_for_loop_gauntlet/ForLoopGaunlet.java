@@ -1,5 +1,7 @@
 package _06_for_loop_gauntlet;
 
+import javax.swing.JOptionPane;
+
 public class ForLoopGaunlet {
 public static void main(String[] args) {
 	
@@ -41,7 +43,24 @@ public static void main(String[] args) {
 			for (int i = 2007; i < 2020; i++) {
 				System.out.println("In "+i+" I was "+(i-2007)+" years old");
 			}
-		
+			
+			for (int i = 0; i < 3; i++) {
+				for (int j = 0; j < 3; j++) {
+					System.out.println(i+" "+j);
+				}
+			}
+	for (int i = 1; i <= 7; i+=3) {
+		for (int j = i; j <= i+2 ; j++) {
+			System.out.print(j);
+		}
+		System.out.println();
+	}
+	for (int i = 1; i < 11; i+=10) {
+		for (int j = i; j <= i+2; j++) {
+			System.out.print(j);
+		}
+		System.out.println();
+	}
 	
 }
 }
