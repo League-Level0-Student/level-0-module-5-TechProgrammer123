@@ -1,12 +1,14 @@
 package _07_skill_practice;
 
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class SkillPractice {
 public static void main(String[] args) {
 
 SkillPractice skills = new SkillPractice();
-           //skills.skill1();
+         //  skills.skill1();
           // skills.skill2();
            skills.skill3();
            skills.skill4();
@@ -14,13 +16,13 @@ SkillPractice skills = new SkillPractice();
 }
 
 //void skill1() {
-// Use pop-ups for the following.
-// Ask the user how many dimes they have
+ //Use pop-ups for the following.
+ //Ask the user how many dimes they have
 //String dimes = JOptionPane.showInputDialog("How many dimes do you have?");
 //int dimesl = Integer.parseInt(dimes);
 
 
-// Tell them how many cents they have (hint multiply by 10)
+ //Tell them how many cents they have (hint multiply by 10)
 //JOptionPane.showMessageDialog(null, dimesl * 10 + " cents");
 
 
@@ -55,19 +57,23 @@ SkillPractice skills = new SkillPractice();
 
 //}
 
-//void skill3() { // Get a random number that is less than 20 and print it to the console 
+void skill3() { // Get a random number that is less than 20 and print it to the console 
 
-
-
+	int r = 0; 
+	Random random = new Random(); 
+	r = random.nextInt(20);
+System.out.println(r);
 // Get another random number that is less than 10 and print it to the console 
-
+	int ra = 0; 
+	Random randoma = new Random(); 
+	ra = random.nextInt(11);
 
 
 // Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction 
 
 
 
-//}
+}
 
 void skill4() { // In a pop-up, ask the user for the city they live in 
 
