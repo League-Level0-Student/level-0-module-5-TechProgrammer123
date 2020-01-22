@@ -67,24 +67,29 @@ System.out.println(r);
 	int ra = 0; 
 	Random randoma = new Random(); 
 	ra = random.nextInt(11);
+	System.out.println(ra);
 
 
 // Using a pop-up, tell the user the difference between the numbers // Hint: use subtraction 
-
+JOptionPane.showMessageDialog(null, "Here is the answer, "+ (r-ra));
 
 
 }
 
 void skill4() { // In a pop-up, ask the user for the city they live in 
-
+String ifcitygoodyes = JOptionPane.showInputDialog("What city do you live in?");
 
 
 // If they answered "San Diego", tell them they live in America's Finest City 
-
+if (ifcitygoodyes == "San Diego") {
+	JOptionPane.showMessageDialog(null, "You live in America's Finest City");
+}
 
 
 // Otherwise, tell them to move to San Diego 
-
+else {
+	JOptionPane.showMessageDialog(null, "You live in North America's, South America's, Europe's, Asia's, Africa's, Austrailia's, Antarica's worst city");
+}
 
 
 // Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation." 
